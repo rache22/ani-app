@@ -1,0 +1,12 @@
+{
+  "name": "ani-app",
+  "version": "4.0.0",
+  "private": true,
+  "description": "ANI — Beauty & Care Marketplace. Single-file SPA + Vercel serverless API.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "vercel dev",
+    "check": "node --check api/providers.js"
+  }
+}
